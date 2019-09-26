@@ -1,0 +1,470 @@
+body {
+  background-color: #ffffff;
+}
+.pages {
+  align-items: center;
+  margin: 5% 0;
+  @media (max-width: 400px) {
+    align-items: center;
+    margin-top: 20%;
+  }
+  .lg-pt-form {
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    @media (min-width: 800px) {
+      .lg-pt-text {
+        margin-left: 33%;
+        margin-right: 33%;
+      }
+    }
+    @media (max-width: 400px) {
+      .lg-pt-text {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+  .pages-form {
+    padding-left: 10%;
+    padding-right: 10%;
+    .service-aggrement-text {
+      margin-left: 25%;
+      margin-right: 25%;
+      resize: none;
+      background-color: #ffffff;
+    }
+    @media (min-width: 800px) {
+      .pages-text {
+        margin-left: 33%;
+        margin-right: 33%;
+      }
+      .pages-icon-text {
+        padding-left: 33%;
+        padding-right: 33%;
+      }
+      .service-aggrement-text, .about-service-text {
+        margin-left: 25%;
+        margin-right: 25%;
+        resize: none;
+        background-color: #ffffff;
+      }
+    }
+    @media (max-width: 400px) {
+      .pages-text {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .service-aggrement-text, .about-service-text {
+        margin-left: 0;
+        margin-right: 0;
+        resize: none;
+        background-color: #ffffff;
+      }
+      .pages-icon-text {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    .signup-payment-select {
+      margin-top: 5rem;
+      .payment-select-credit:hover, .payment-select-cash:hover {
+        cursor: pointer;
+        background-color: #e0e0e0;
+      }
+      .payment-select-credit {
+        border: 1px solid #c8ced3 !important;
+        padding: 3rem;
+
+      }
+      .payment-select-cash {
+        border: 1px solid #c8ced3 !important;
+        padding: 3rem;
+        margin-left: 3rem
+      }
+    }
+    @media (max-width: 530px) {
+      .signup-payment-select {
+        margin-top: 2rem;
+        .payment-select-cash {
+          border: 1px solid #c8ced3 !important;
+          padding: 1.1rem;
+          margin-left: 1rem;
+        }
+        .payment-select-credit {
+          border: 1px solid #c8ced3 !important;
+          padding: 1.1rem;
+        }
+      }
+    }
+  }
+}
+
+.input-page {
+  .import_dev .btn-link {
+    padding: 0;
+    font-weight: bold;
+    color: #17968A;
+    text-decoration: underline;
+  }
+  @media (min-width: 500px) {
+    padding-left: 3rem;
+  }
+  .payment {
+    .payment-textarea {
+      background-color: #ffffff;
+      resize: none;
+    }
+  }
+  .edit-password-btn {
+    .col {
+      .active {
+        font-size: 0.95rem;
+        padding: 0;
+      }
+    }
+  }
+}
+.input-page.billinghistory {
+  padding-left: 0;
+}
+
+ヘッダーロゴ
+.header-fixed {
+  .app {
+    .app-header {
+      .navbar-brand {
+        .navbar-brand-full {
+          width: 9rem;
+          height: auto;
+        }
+        .navbar-brand-minimized {
+          width: 1.8rem;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+.app-header {
+  background-color: #ebeef1;
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        text-align: right;
+        font-weight: bold;
+      }
+    }
+    .nav-item.dropdown.show {
+      .nav-link {
+        color: #419FE5;
+      }
+    }
+  }
+}
+
+.app-body {
+  .main {
+    .breadcrumb {
+      background-color: #e4e5e6;
+    }
+  }
+}
+
+.app-footer {
+  background-color: #ebeef1;
+}
+
+.modal-header {
+  background: #2f353a;
+  color: #fff;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  .close {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+}
+
+.invoice-modal {
+  .modal {
+    @media (min-width: 576px) {
+      .modal-dialog {
+        max-width: 350px;
+        margin: 1.75rem auto;
+      }
+    }
+  }
+  .modal-dialog {
+    .modal-content {
+      margin-top: 8rem;
+    }
+  }
+}
+
+.sm-modal {
+    @media (min-width: 576px) {
+      .modal-dialog {
+        max-width: 365px;
+        margin: 1.75rem auto;
+      }
+    }
+    .modal-dialog {
+      .modal-content {
+        .modal-body {
+          .d-block {
+            @media (max-width: 364px) {
+              .modal-title {
+                font-size: 1.05rem;
+              }
+            }
+          }
+        }
+      }
+    }  
+}
+
+.sm-modal.multi-reg {
+    @media (min-width: 576px) {
+      .modal-dialog {
+        max-width: 500px;
+        margin: 1.75rem auto;
+      }
+    }
+    input[type="file"] {
+      padding-left: 23%;
+    }
+    .validate_err {
+      padding: 7px;
+      color: #fff;
+      background-color: #F04339;
+        ul {
+          margin: 0;
+          padding: 0;
+            li {
+              list-style-type: none;
+            }
+        }
+    }
+}
+
+.modal-box {
+  display: block;
+  .modal-content {
+    margin-top: 7rem;
+    .text-center {
+      .modal-title {
+        margin-top: 2rem;
+      }
+    }
+    .btn-change-modals {
+      display: table;
+      margin: 0 auto;
+      margin-top: 1.5rem;
+      .btn-change {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+  .close {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+}
+
+.noheader {
+  .modal-header {
+    padding: 1rem 1rem 0;
+    border-bottom: 0;
+    background: #fff;
+  }
+  .close {
+    font-size: 1.5rem;
+    color: #000;
+  }
+  .modal-body {
+    padding: 0 1rem 1rem;
+  }
+}
+
+.payment-method {
+  .payment-method-title {
+    font-weight: bold;
+  }
+}
+.payment-data {
+  .payment-data-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    .payment-data-table-header {
+      font-weight: bold;
+    }
+    .text-center {
+      border: 1px solid #dddddd;
+      padding: 8px;
+    }
+  }
+}
+
+.billinginfo-cancel {
+  .billinginfo-cancel-btn {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+.payment-datebox {
+  padding-right: 12px;
+}
+
+.payment-datetxt {
+  padding: 7px 0 0;
+  max-width: 12px;
+}
+
+.payment-method-fif {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 88%;
+  color: #f86c6b;
+}
+
+.settlement {
+  width: 216px;
+}
+
+.prefecture .dropdown-toggle::after {
+  margin-left: 3.255em;
+}
+
+.prefecture {
+  width: 90%;
+}
+
+.v_err {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #f86c6b;
+  display: inline-block;
+}
+
+.userlist_tb {
+  .table {
+    th {
+      text-align: center;
+    }
+    td {
+      vertical-align: middle;
+      text-align: center;
+    }
+    .userPaymentBtn {
+      width: 160px;
+    }
+  }
+}
+.userlist-modal {
+  display: block;
+  .modal-content {
+    margin-top: 7rem;
+    .text-center {
+      .modal-title1 {
+        margin-top: 1rem 3rem 0rem 3rem;
+      }
+      .modal-title2 {
+        margin-top: 1rem 3rem 0rem 3rem;
+        padding-bottom: 1rem;
+      }
+    }
+    .btn-change-modals {
+      display: table;
+      margin: 0 auto;
+      margin-top: 1.5rem;
+      .btn-change {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+  .close {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+}
+.billingamount {
+  padding-left: 0;
+}
+.billinghistory_tb {
+  .table {
+    th {
+      padding: 0.4rem 0.75rem;
+    }
+    td {
+      vertical-align: middle;
+      width: 250px;
+      padding: 0.4rem 0.75rem;
+      font-weight:bold;
+      .col {
+        padding-left: 0;
+      }
+    }
+  }
+}
+.table-bordered {
+  border: none;
+  thead th {
+    border-bottom-width: 1px;
+  }
+}
+.pagination.billingtb {
+  width: 140px;
+  margin: 0 auto;
+}
+
+.number.invalid-feedback,
+.cvc.invalid-feedback {
+  display: block;
+}
+.paymentMethod {
+  .close {
+    display: none;
+  }
+  .modalbox.close {
+    display: block;
+    margin-top: -60px;
+  }
+  .modalbox.close:hover,
+  .modalbox.close:active:focus {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    box-shadow: unset; 
+  }
+}
+.cardinfo_tb {
+  th {
+    text-align: center;
+  }
+}
+.input-group > .form-control:not(:last-child) {
+    border-radius: 0.25rem;
+}
+button:focus {
+  outline: none;
+}
+.settletxt {      
+  padding: 8px;
+  color: #fff;
+  text-align: center;
+  background-color: #F04339;
+}
+@media (max-width: 576px) {
+  .signup_errmsg {
+    width: 95%;
+  }
+}
+.yen {
+  font-size: 2.7rem;
+  margin-bottom: 0;
+}
